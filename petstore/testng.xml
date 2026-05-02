@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetStore API Test Suite">
+    <listeners>
+        <listener class-name="com.petstore.api.utils.ExtentReportManager" />
+    </listeners>
+    <test thread-count="5" name="PetStore Tests">
+        <classes>
+            <class name="com.petstore.api.tests.UserTests" />
+            <!-- <class name="com.petstore.api.tests.PetTests"/>
+            <class name="com.petstore.api.tests.StoreTests"/> -->
+        </classes>
+    </test>
+</suite>
