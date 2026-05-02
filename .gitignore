@@ -4,3 +4,5 @@
 .project
 .classpath
 target/
+.m2
+reports/
